@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "transpile": "babel index.js -d dist --copy-files"
   },
   "keywords": [
     "react",
@@ -16,12 +16,16 @@
   ],
   "author": "Alex Nudelman",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.7.0-alpha.0",
-    "react-dom": "^16.7.0-alpha.0",
-    "webpack": "^4.25.1"
+    "react-dom": "^16.7.0-alpha.0"
   },
+  "dependencies": {},
   "devDependencies": {
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "@babel/core": "^7.1.5",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.25.1"
   }
 }
