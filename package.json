@@ -1,7 +1,7 @@
 {
   "name": "hooks-composer",
   "version": "1.0.0",
-  "description": "yet anoter way to create your react hooks",
+  "description": "yet another way to create your react hooks",
   "main": "index.js",
   "author": "Alex Nudelman",
   "license": "ISC",
