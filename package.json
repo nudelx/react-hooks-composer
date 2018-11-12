@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "yet anoter way to create your react hooks",
   "main": "index.js",
+  "author": "Alex Nudelman",
+  "license": "ISC",
+  "repository": "https://github.com/nudelx/react-hooks-composer",
+  "bugs": {
+    "url": "https://github.com/nudelx/react-hooks-composer/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "transpile": "babel index.js -d dist --copy-files"
@@ -14,8 +20,6 @@
     "compose",
     "javascript"
   ],
-  "author": "Alex Nudelman",
-  "license": "ISC",
   "peerDependencies": {
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0"
