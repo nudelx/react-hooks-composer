@@ -11,3 +11,15 @@ export default hooks => {
     return all
   }, {})
 }
+
+import useHooksComposer from 'hooks-composer'
+
+export function Test(props) {
+  const { name, surname, language, setName, setSurname } = useHooksComposer({
+    name: 'Mary',
+    surname: 'Poppins',
+    language: '🇬🇧'
+  })
+}
+
+console.log(name, surname, language, setName, setSurname)
