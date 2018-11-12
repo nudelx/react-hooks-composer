@@ -22,14 +22,7 @@ import React from 'react'
 import useHooksComposer from 'hooks-composer'
 
 export default function Test(props) {
-  const {
-    name,
-    surname,
-    language,
-    setName,
-    setSurname,
-    setLanguage
-  } = useHooksComposer({
+  const { name, surname, language, setName, setSurname, setLanguage } = useHooksComposer({
     name: 'Mary',
     surname: 'Poppins',
     language: '🇬🇧'
@@ -53,7 +46,9 @@ export function Test(props) {
 ```
 
 ## Installation
-
+```
+ npm i hooks-composer or yarn add hooks-composer
+```
 ---
 
 Made with ♥ by nudelx
