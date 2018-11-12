@@ -1,5 +1,5 @@
 # React Hooks Composer
-
+<div style="display:inline-block; margin-right: auto; margin-left: auto"><img width="60px" height="60px"  src="https://raw.githubusercontent.com/nudelx/react-hooks-composer/master/img/img.png" ></div>
 Tiny Javascript composition over React Hooks ( React > 16.7.0 ).
 Yet another way to create your hooks :)
 
