@@ -37,7 +37,7 @@ export default function Test(props) {
 
 ## How it works
 
-Instead of creating your hooks line by line and defining the pairs for value and its setter, you can pass a static object, where each key is the name of your hook variable and the value its initial state. The composer will create an independent hook for each key and will return an object with all values and setters named according to the convention.
+Instead of creating your hooks line by line and defining the pairs for value and its setter, you can pass a static object, where each key is the name of your hook variable and the value is the initial value of the hook. The composer will create an independent hook for each key and will return an object with all values and setters named according to the convention.
 
 Example:
 
