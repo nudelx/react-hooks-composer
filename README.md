@@ -1,9 +1,12 @@
 
-<img style="max-width: 100%; margin-right: auto;  margin-left: auto; display: block;" src="https://raw.githubusercontent.com/nudelx/react-hooks-composer/master/img/img.png" >
+<img width="200px" height="200px" style="max-width: 100%; margin-right: auto;  margin-left: auto; display: block;" src="https://raw.githubusercontent.com/nudelx/react-hooks-composer/master/img/img.png" >
+
+# React Hooks Composer
+
 Tiny Javascript composition over React Hooks ( React > 16.7.0 ).
 Yet another way to create your hooks :)
 
-# React Hooks Composer
+
 ## Before
 
 ```js
