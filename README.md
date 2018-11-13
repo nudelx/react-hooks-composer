@@ -52,7 +52,11 @@ export function Test(props) {
 
 ## Installation
 ```
- npm i hooks-composer or yarn add hooks-composer
+ npm i hooks-composer 
+```
+or 
+```
+ yarn add hooks-composer
 ```
 ---
 
